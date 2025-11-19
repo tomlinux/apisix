@@ -40,7 +40,7 @@ jobs:
 
           # prepare apisix-dashboard source code
           source .requirements
-          git clone --revision=${APISIX_DASHBOARD_COMMIT} --depth 1 https://github.com/apache/apisix-dashboard.git
+          git clone --revision=${APISIX_DASHBOARD_COMMIT} --depth 1 https://github.com/tomlinux/apisix-dashboard.git
           pushd apisix-dashboard
 
           # compile
